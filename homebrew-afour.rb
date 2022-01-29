@@ -1,11 +1,13 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class HomebrewAfour < Formula
+class Afour < Formula
   desc "one"
   homepage "bdiplus.com"
   url "https://github.com/raviarasan/homebrew-afour/archive/v1.0.1.tar.gz"
   sha256 "a4e3f39097babec919fedc49859289ddc8fe1dff212da17b56a864f740819174"
+  version "v1.0.1"
+
   license "MIT"
 
   # depends_on "cmake" => :build
